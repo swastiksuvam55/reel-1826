@@ -1,0 +1,42 @@
+.home-page {
+  font-family: "orbitron";
+  height: 95vh;
+}
+.nav-bar {
+  margin-left: 10%;
+  padding-top: 2%;
+  p {
+    padding-right: 30px;
+    font-size: x-large;
+  }
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .title-parent {
+    p {
+      text-align: center;
+      font-size: 100px;
+      font-weight: bolder;
+    }
+  }
+
+  .image-parent {
+    height: 600px;
+
+    overflow: auto;
+    .image {
+      width: 45vw;
+      height: 2300px;
+    }
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
