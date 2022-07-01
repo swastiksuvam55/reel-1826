@@ -1,5 +1,4 @@
-import Image from "next/image";
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 
 export default function HomePage() {
   const imageRef = useRef(null);
