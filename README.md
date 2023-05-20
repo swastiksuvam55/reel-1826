@@ -1,34 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Reel-1826 Project README
 
-## Getting Started
 
-First, run the development server:
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Introduction
+Welcome to the Reel-1826 project! This README provides an overview of the project and guides you through the installation and usage of Reel-1826. Reel-1826 is a project built with Next.js, React, and Node.js, aimed at creating an immersive and interactive reel experience.
+
+## Installation
+To install the project and its dependencies, follow the steps below:
+
+1. Clone the repository to your local machine:
 ```bash
-npm run dev
-# or
-yarn dev
+gh repo clone spotmies/reel-1826
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
+```bash
+cd reel-1826
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Install the required dependencies by running the following command:
+```bash
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This command will read the `package.json` file and install all the dependencies listed in the `"dependencies"` section.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Usage
+To use Reel-1826, follow the steps below:
 
-## Learn More
+1. Make sure all dependencies are successfully installed.
 
-To learn more about Next.js, take a look at the following resources:
+2. Customize the project files to fit your specific requirements. Update the necessary configuration files, stylesheets, or any other project-specific files.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the development server:
+```bash
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This command will start the Next.js development server, allowing you to preview and make changes to the project. The server will automatically reload whenever you save any file.
 
-## Deploy on Vercel
+4. Open your web browser and navigate to `http://localhost:3000` to see the running application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. You're now ready to use Reel-1826!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Note: The provided scripts can also be used for building, starting, and linting the project. Refer to the [Scripts](#scripts) section for more details.
+
+## Dependencies
+The project relies on the following dependencies:
+
+- next: A React framework for building server-side rendered applications.
+- react: A JavaScript library for building user interfaces.
+- react-dom: The entry point to the DOM and server renderers for React.
+- node-sass: A library that provides binding for Node.js to LibSass, a CSS preprocessor.
+
+## Scripts
+The project includes the following predefined scripts:
+
+- `dev`: Starts the Next.js development server.
+- `build`: Builds the project for production.
+- `start`: Starts the production server.
+- `lint`: Lints the project using ESLint.
+
+To execute a script, run the following command:
+```bash
+npm run <script-name>
+```
+
+## Contributing
+Contributions to the Reel-1826 project are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the project's repository.
+
+## License
+This project is licensed under the `BSD 3-Clause License`. See the `LICENSE` file for more information.
+
